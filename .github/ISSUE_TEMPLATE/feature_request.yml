@@ -1,0 +1,23 @@
+name: ✨ Feature Request
+description: Suggest a new feature
+title: "[FEATURE]: "
+labels: [enhancement, "priority: low"]
+projects: SKJOLDET-Main
+type: feature
+body:
+  - type: textarea
+    attributes:
+      label: Describe the feature
+      description: What do you want to have/see?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Why is it useful?
+      description: Explain why this feature matters for the user or system.
+
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Anything else we should know?
